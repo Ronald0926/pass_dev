@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+ body {
+        font-family: 'Montserrat', sans-serif;
+            
+      }
+      
+    [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+  
+ .wizard-card {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    border-radius: 25px;
+    background-color: #FFF;
+    margin-top:20px;
+    height: auto;
+    text-align: center;
+    max-height: 680px;
+    padding: 5% 10% 1% 10%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+
+    form {
+        width: 100%;
+    } 
+} 
+
+.wizard-card table{
+    width: 100%;
+}
+.wizard-card table tr td{
+    width: 100%;
+    /*padding-top: 20px;*/
+}
+.wizard-card input{
+    width: 100%;
+}
+.wizard-card button{
+    background: #1C5394;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    margin-bottom: 30px;
+    color: #FFF;
+    font-weight: bold;
+    width: 100%;
+    font-weight: normal;
+}
+.wizard-card button:hover{
+    background: #0D2E50;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.inner {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-left: 3%;
+    padding-right: 3%;
+    float: none;
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #hHelp {
+        font-size: 3vw!important;
+        padding: 2vw!important;
+        border-radius: 2vw!important;
+        line-height: 0.5em;
+    }
+    .img-banner img {
+        height: 9vw !important;
+        margin: auto;
+    }
+    .checkbox label, .radio label, label, #UserName, #labelAcount, #olvidousua {
+        font-size: 3vw !important;
+    }
+    .check {
+        border: 0.2vw solid #007D8A;
+        height: 5vw !important;
+        width: 5vw !important;
+    }
+    .containerBody {
+        padding-left: 17px !important;
+        padding-right: 17px!important;
+    }
+    #welcome > div {
+        padding: 0px;
+    }
+    #hSecondtxt {
+        font-size:6vw !important;
+    }
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .img-banner img {
+        height: 7vw !important;
+        margin: auto;
+    }
+    .checkbox label, .radio label, label, #labelAcount, #olvidousua {
+        font-size: 3vw !important;
+    }
+    .check {
+        height: 3.5vw !important;
+        width: 3.5vw !important;
+    }
+    #hSecondtxt {
+        font-size:4vw !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .img-banner img {
+        height: 5vw !important;
+        margin: auto;
+    }
+    .checkbox label, .radio label, label {
+        font-size: 2vw;
+    }
+    .check {
+        height: 3vw !important;
+        width: 3vw !important;
+    }
+    #hSecondtxt {
+        font-size:4vw !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 1080px) and (max-width: 1800px) {
+    
+    .img-banner img {
+        height: 4vw !important;
+        margin: auto;
+    }
+    .checkbox label, .radio label, label {
+        font-size: 1vw;
+    }
+    .check {
+        height: 2.2vw !important;
+        width: 2.2vw !important;
+    }
+    #hSecondtxt {
+        font-size:3vw !important;
+    }
+    .wizard-card{
+        padding: 5% 5% 1% 5%;
+    }
+    .login-form button {
+        
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1900px) {
+    div#buttonstema2 {
+    /* top: 16%; */
+    position: relative;
+}   
+   
+    #hHelp {
+        font-size: 1vw!important;
+        padding: 1vw!important;
+        border-radius: 1vw!important;
+        line-height: 0.5em;
+    }
+    .img-banner img {
+        height: 6vw !important;
+        margin: auto;
+    }
+    .checkbox label, .radio label, label ,input, a, .select div,.select, button{
+        font-size: 0.8vw;
+    }
+    .check {
+        height: 1.5vw !important;
+        width: 1.5vw !important;
+    }
+    #hSecondtxt {
+        font-size:2vw !important;
+    }
+    #form-group {
+        padding: 1.2vw !important;
+        border-radius: 1vw !important;
+        margin-bottom:5vw !important;
+    }
+    .form-group {
+        padding-bottom: 1vw !important;
+    }
+       
+}
+  
+.select-online{
+                width: 100%;
+                top: 0px;
+                left: 0px;
+                padding:6px;
+                border-radius: 15px;
+                padding-left:4px;
+                -webkit-appearance: none;
+                background: url(/static/img/portal/login/select1.jpg) no-repeat center;
+                background-size: 20px;
+                background-position-x:98%;
+
+ }       
+body::after{
+    content: ' &nbsp;';
+    font-size: 50px;
+}
+.login-form p {
+    font-weight: bold;
+}
+.login-fondo{
+    position: fixed;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: URL("/static/img/portal/login/fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+}
+.login-form{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #FFF;
+    /*margin-top: 25%;*/
+    text-align: center;
+    padding: 60px 60px ;
+}
+.login-form table{
+    width: 100%;
+}
+.login-form table tr td{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.login-form input{
+    width: 100%;
+}
+.login-form button{
+    background: #1C5394;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    color: #FFF;
+    font-weight: bold;
+    width: 100%;
+    font-weight: normal;
+}
+.login-form button:hover{
+    background: #0D2E50;
+}
+.login-btn-cancelar{
+    background: #1C5394;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    font-weight: bold;
+    width: 100%;
+    font-weight: normal;
+    width: 100%;
+}
+.login-btn-cancelar:hover{
+    background: #0D2E50;
+}
+.login-btn-cancelar a{
+    color: #FFF;
+}
+.login-btn-cancelar a:hover{
+    color: #FFF;
+    text-decoration: none;
+}
+.login-olvido-contrasena-link{
+    text-align: right;
+    font-style: oblique;
+    font-size: 12px;
+    margin-top: 3px;
+}
+.login-footer{
+    position: fixed;
+    height: 50px;
+    color: #FFF;
+    width: 100%;
+    padding: 0px 0px 0px 45px;
+    bottom: 0px;
+    text-align: center;
+}
+.login-footer img{
+    width: 25px;
+}
+.login-footer-background{
+    position: absolute; 
+    background-color: #000; 
+    opacity: 0.5;
+    top: 0px; 
+    bottom: 0px; 
+    left: 0px; 
+    right: 0px;
+}
+.login-footer-download{
+    color: #FFF; 
+    font-size: 12px; 
+    text-decoration: underline;
+}
+.login-footer-download:hover{
+    color: #FFCB0B; 
+    font-size: 13px; 
+    text-decoration: underline;
+}
+.portal-footer-download:hover{
+    color: #FFF; 
+}
+.login-footer-download img{
+    width: 16px;
+}
+.login-footer-redes{
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.login-footer-redes-facebook{
+    background-image: url('/static/img/portal/facebook.png');
+}
+.login-footer-redes-facebook:hover{
+    background-image: url('/static/img/portal/facebook-hover.png');
+}
+.login-footer-redes-twitter{
+    background-image: url('/static/img/portal/twitter.png');
+}
+.login-footer-redes-twitter:hover{
+    background-image: url('/static/img/portal/twitter-hover.png');
+}
+.login-btn-terminos{
+    text-align: left
+}
+.login-btn-terminos a{
+    color: #757575;
+    padding-left: 15px
+}
+
+/*
+
+CSS GENERALES
+
+*/
+body {
+    background-color: #FFF;
+}
+
+/*
+
+INPUT
+
+*/
+input{
+    padding-left: 3px;
+    border: none;
+    border-bottom: 1px solid #757575;
+}
+input:hover{
+    border-bottom: 2px solid #09538A;
+    color: #09538A;
+    -moz-box-shadow:    3px 3px 5px 6px #FFF;
+    -webkit-box-shadow: 3px 3px 5px 6px #FFF;
+    box-shadow:         3px 3px 5px 6px #FFF;
+}
+input:focus{
+    border-bottom: 2px solid #09538A;
+    color: #09538A;
+    -moz-box-shadow:    3px 3px 5px 6px #FFF;
+    -webkit-box-shadow: 3px 3px 5px 6px #FFF;
+    box-shadow:         3px 3px 5px 6px #FFF;
+}
+
+/*
+
+CHECKBOX
+LOGIN PRINCIPAL
+
+*/
+.login-checkbox{
+    width: 30px; 
+    position: relative;
+}
+.login-checkbox input[type="checkbox"]{
+    opacity: 0;
+}
+.login-checkbox div{
+    border: #757575;
+    border-style: solid;
+    padding: 0px;
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    border-width: 2px;
+    position: absolute;
+    top: 0px;
+}
+.login-checkbox-check{
+    position: absolute;
+    background-color: #1C5394;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    border-radius: 5px;
+    display: none;
+}
+/*
+
+SELECT 1
+LOGIN PRINCIPAL
+
+*/
+.select{
+    position: relative;
+}
+.select select{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    margin-top: 6px;
+}
+.select div{
+    text-align: left;
+    border: none;
+    border: 1px solid #757575;
+    padding: 4px 4px 4px 2px;
+    border-radius: 15px;
+    background-image: url(/static/img/portal/login/select1.jpg);
+    background-size: 20px;
+    background-position-x: 99%;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    padding-left:  5px;
+/*    padding-right: 10%;*/
+}
+.select .help-inline{
+    position: absolute;
+    bottom: -20px;
+}
+.select .error{
+    position: absolute;
+    bottom: -20px;
+}
+
+label.error {
+    bottom: 40px;
+    color: red;
+    font-size: 14px;
+    height: 25px;
+    display: block;
+    padding: 3px 0;
+    font-weight: 600;
+}
+
+select{
+    text-transform: lowercase;
+}
+select::first-letter {
+    text-transform: uppercase;
+}
+.lower-case{
+    text-transform: lowercase;
+}
+.titulo{
+    font-size: 22px;
+    color: #366199;
+    font-weight: bold;
+}
