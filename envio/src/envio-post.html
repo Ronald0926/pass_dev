@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!--Le damos nombre a la pagina-->
+	<title>
+		Formulario::Post
+	</title>
+	<!--Los caracteres mostrados seran en formato UTF-8-->
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<!--form es la etiqueta del formulario
+		action hacia donde dirigiremos las variables
+		method el metodo que utilizaresmos-->
+	<form action="http://192.168.10.30/envio/src/index.php" method="POST">
+		<!--cremamos los campos de caputura  Required es que esos campos son obligatorios-->
+		REMITENTE :<input type="text" id="REMITENTE" name="REMITENTE" value ="SISTEMA"required><br/><br/>
+		DESTINATARIO :<input type="mail" id="DESTCORREO" name="DESTCORREO" value="fredy.mendoza@tecnolet.com" required><br/><br/>
+		USUARIO :<input type="text" id="DESTUSUARIO" name="DESTUSUARIO" value="fredymendoza" required><br/><br/>
+		RESPONDER :<input type="text" id="RESPCORREO" name="RESPCORREO" value="manuel.anzola@tecnolet.com" required><br/><br/>
+		RESPONDERUSUARIO :<input type="text" id="RESPUSUARIO" name="RESPUSUARIO" value="manuelanzola" required><br/><br/>
+		ASUNTO :<input type="text" id="ASUNTO" name="ASUNTO" value = "Asunto " required><br/><br/>
+		MENSAJE :<input type="text" id="MENSAJE" name="MENSAJE" value = "Mensaje " required><br/><br/>
+
+		<!--submit crea el boton para enviar nuestro formulario-->
+		<input type="submit">
+	</form>
+</body>
+
+</html>

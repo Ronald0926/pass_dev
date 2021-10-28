@@ -1,0 +1,28 @@
+<RESPUESTA>
+    <REGISTRO>
+        <FILA>Número de consulta: 106845</FILA>
+    </REGISTRO>
+    <REGISTRO>
+        <FILA>Cantidad de coincidencias: 2</FILA>
+    </REGISTRO>
+    <REGISTRO>
+        <FILA>NO: 1</FILA>
+        <FILA>Prioridad: 2</FILA>
+        <FILA>Tipo documento: NIT</FILA>
+        <FILA>Numero documento:
+            805007818</FILA>
+        <FILA>Nombre: ACA LTDA</FILA>
+        <FILA>Número tipo lista: 4</FILA>
+        <FILA>Lista: Lista OFAC</FILA>
+    </REGISTRO>
+    <REGISTRO>
+        <FILA>NO: 2</FILA>
+        <FILA>Prioridad: 2</FILA>
+        <FILA>Tipo documento: NIT</FILA>
+        <FILA>Numero
+            documento: 805007818</FILA>
+        <FILA>Nombre: ASESORES CONSULTORES ASOCIADOS LTDA</FILA>
+        <FILA>Número tipo lista: 4</FILA>
+        <FILA>Lista: Lista OFAC</FILA>
+    </REGISTRO>
+</RESPUESTA>

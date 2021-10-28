@@ -1,0 +1,17 @@
+/mpdf/nbproject/private/
+/mpdf/vendor/
+/nbproject/private/
+logs/
+### NetBeans ###
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*.log
+nbproject/private/private.xml
+nbproject/private/private.xml
+nbproject/private/private.xml

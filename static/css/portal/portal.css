@@ -1,0 +1,2201 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+html {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF;
+}
+
+hr {
+    width: 80%;
+}
+
+
+/*
+spacing button, a
+*/
+
+.spacing {
+    letter-spacing: 4px;
+}
+
+
+/*
+
+INPUT
+
+*/
+
+input {
+    padding-left: 3px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    width: 100%;
+    color: #888;
+}
+
+input:hover {
+    border-bottom: 1px solid #09538A;
+    color: #09538A;
+    -moz-box-shadow: 3px 3px 5px 6px #FFF;
+    -webkit-box-shadow: 3px 3px 5px 6px #FFF;
+    box-shadow: 3px 3px 5px 6px #FFF;
+}
+
+input:focus {
+    border-bottom: 1px solid #09538A;
+    color: #09538A;
+    -moz-box-shadow: 3px 3px 5px 6px #FFF;
+    -webkit-box-shadow: 3px 3px 5px 6px #FFF;
+    box-shadow: 3px 3px 5px 6px #FFF;
+}
+
+
+/*
+*/
+
+modal .modal-header-llave {
+    margin-right: 10px;
+    min-height: 16.43px;
+    padding: 15px;
+}
+
+
+/*
+
+CHECKBOX
+LOGIN PRINCIPAL
+
+*/
+
+.login-checkbox {
+    width: 30px;
+    position: relative;
+}
+
+.login-checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+
+.login-checkbox div {
+    border: #757575;
+    border-style: solid;
+    padding: 0px;
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+    border-width: 2px;
+    position: absolute;
+    top: 0px;
+}
+
+.login-checkbox-check {
+    position: absolute;
+    background-color: #1C5394;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    border-radius: 5px;
+    display: none;
+}
+
+
+/*
+
+CHECKBOX
+LOGIN PRINCIPAL
+
+*/
+
+.portal-checkbox {
+    width: 20px;
+    position: relative;
+}
+
+.portal-checkbox div {
+    z-index: 2;
+    border: #757575;
+    border-style: solid;
+    padding: 0px;
+    border-radius: 8px;
+    height: 20px;
+    width: 20px;
+    border-width: 2px;
+    top: 0px;
+}
+
+.portal-checkbox-check {
+    padding: 25px;
+    position: absolute;
+    background-color: #1C5394;
+    top: 0px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    border-radius: 5px;
+    display: none;
+}
+
+.portal-checkbox input[type="checkbox"] {
+    opacity: 5px;
+}
+
+
+/*
+
+SELECT 1
+LOGIN PRINCIPAL
+
+*/
+
+.select {
+    position: relative;
+    margin-top: 15px;
+    color: #888;
+}
+
+.select select {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    margin-top: 6px;
+}
+
+.select div {
+    text-align: left;
+    border: none;
+    border: 1px solid #888;
+    padding: 4px 4px 4px 2px;
+    border-radius: 15px;
+    background-image: url(/static/img/portal/login/select1.jpg);
+    background-size: 20px;
+    background-position-x: 99%;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    padding-right: 10%;
+    padding-left: 5px;
+}
+
+.select .help-inline {
+    position: absolute;
+    bottom: -20px;
+}
+
+.select .error {
+    position: absolute;
+    bottom: -25px;
+}
+
+
+/*
+
+HEADER
+
+*/
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.header-logo {
+    padding-top: 10px;
+    width: 40%;
+}
+
+.header-logo-transportador-p {
+    border-radius: 18px;
+    float: left;
+    /*padding-top: 50px;*/
+    width: 90%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+}
+
+.header-logo-llaveMaestra-p {
+    border-radius: 18px;
+    float: right;
+    width: 90%;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+}
+
+.header-logo-transportador-p:hover {
+    border-radius: 18px;
+    /*padding-top: 50px;*/
+    width: 90%px;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.header-logo-llaveMaestra-p:hover {
+    border-radius: 18px;
+    /*padding-top: 50px;*/
+    width: 40%px;
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.header-transportador {
+    font-size: 15px;
+    color: #0c385e;
+    font-weight: bold;
+}
+
+.header-llaveMaestra {
+    font-size: 15px;
+    color: #0c385e;
+    font-weight: bold;
+}
+
+.header-items td {
+    padding: 0px 5px;
+    border-left: 2px solid #002166;
+}
+
+.header-items td:first-child {
+    border: none;
+}
+
+.header-items td a {
+    text-decoration: none;
+}
+
+.header-items td a div {
+    width: 65px;
+    height: 65px;
+}
+
+.header-items td:first-child a div {
+    width: 40px;
+    height: 40px;
+}
+
+.header-help {
+    background-size: contain;
+    background-image: url("/static/img/portal/menu/interrogante-usuario.jpg");
+}
+
+.header-help:hover {
+    background-image: url("/static/img/portal/menu/interrogante-usuario.jpg");
+}
+
+.header-bell {
+    background-size: contain;
+    background-image: url("/static/img/portal/menu/campana.png");
+}
+
+.header-bell:hover {
+    background-image: url("/static/img/portal/menu/campana-hover.png");
+}
+
+.header-user {
+    background-size: contain;
+    background-image: url("/static/img/portal/menu/usuario.jpg");
+}
+
+.header-user:hover {
+    background-image: url("/static/img/portal/menu/usuario-hover.jpg");
+}
+
+.header2 .header-logo {
+    width: 130%;
+    height: 148px;
+    padding-top: 32px;
+    padding-left: 29px;
+}
+
+.header-modulo-llave {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    background-size: contain;
+    margin: 50px 15px 0px 15px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+}
+
+.header-modulo-llave:hover {
+    border-radius: 18px;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    width: 108px;
+    height: 106px;
+    margin: 0px 3px 0px 3px;
+}
+
+.header-modulo {
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+    background-size: contain;
+    margin: 50px 15px 0px 15px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+}
+
+.header-modulo:hover {
+    border-radius: 18px;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+}
+
+.header-modulo-solicitud {
+    background-image: url("/static/img/portal/menu/menu-solicitud.png");
+}
+
+.header-modulo-solicitud:hover {
+    background-image: url("/static/img/portal/menu/menu-solicitud-hover.png");
+}
+
+.header-modulo-abonos {
+    background-image: url("/static/img/portal/menu/menu-abonos.png");
+}
+
+.header-modulo-abonos:hover {
+    background-image: url("/static/img/portal/menu/principal-i-abonos.png");
+}
+
+.header-modulo-pagos {
+    background-image: url("/static/img/portal/menu/menu-pagos.png");
+}
+
+.header-modulo-pagos:hover {
+    background-image: url("/static/img/portal/menu/menu-pagos-hover.png");
+}
+
+.header-modulo-entregas {
+    background-image: url("/static/img/portal/menu/menu-entregas.png");
+}
+
+.header-modulo-entregas:hover {
+    background-image: url("/static/img/portal/menu/menu-entregas-hover.png");
+}
+
+.header-modulo-consultas {
+    background-image: url("/static/img/portal/menu/menu-consultas.png");
+}
+
+.header-modulo-consultas:hover {
+    background-image: url("/static/img/portal/menu/menu-consultas-hover.png");
+}
+.header-modulo-gestion {
+    background-image: url("/static/img/portal/menu/menu-gestion.png");
+}
+
+.header-modulo-gestion:hover {
+    background-image: url("/static/img/portal/menu/menu-gestion-hover.png");
+}
+
+.header-modulo-cotizacion {
+    background-image: url("/static/img/portal/menu/menu-cotizacion.png");
+}
+
+.header-modulo-cotizacion:hover {
+    background-image: url("/static/img/portal/menu/menu-cotizacion-hover.png");
+}
+
+.header-modulo-soporte {
+    background-image: url("/static/img/portal/menu/menu-soporte.png");
+}
+
+.header-modulo-soporte:hover {
+    background-image: url("/static/img/portal/menu/menu-soporte-hover.png");
+}
+
+.header-modulo-llavemaestra {
+    background-image: url("/static/img/portal/llave/menu-llave-maestra.png");
+}
+
+.header-modulo-llavemaestra:hover {
+    background-image: url("/static/img/portal/llave/menu-llave-maestra-hover.png");
+}
+
+.header-menu-asociacion {
+    background-image: url("/static/img/portal/llave/menu-asociacion.png");
+}
+
+.header-menu-asociacion:hover {
+    background-image: url("/static/img/portal/llave/menu-asociacion-hover.png");
+}
+
+.header-menu-carga {
+    background-image: url("/static/img/portal/llave/menu-carga.png");
+}
+
+.header-menu-carga:hover {
+    background-image: url("/static/img/portal/llave/menu-carga-hover.png");
+}
+
+.header-menu-abono {
+    background-image: url("/static/img/portal/llave/menu-abono.png");
+}
+
+.header-menu-abono:hover {
+    background-image: url("/static/img/portal/llave/menu-abono-hover.png");
+}
+
+.header-menu-estado {
+    background-image: url("/static/img/portal/llave/menu-estado.png");
+}
+
+.header-menu-estado:hover {
+    background-image: url("/static/img/portal/llave/menu-estado-hover.png");
+}
+
+.header-menu-reverso {
+    background-image: url("/static/img/portal/llave/menu-reverso.png");
+}
+
+.header-menu-reverso:hover {
+    background-image: url("/static/img/portal/llave/menu-reverso-hover.png");
+}
+
+.header-menu-bolsillo {
+    background-image: url("/static/img/portal/llave/menu-llave-bolsillo.png");
+}
+
+.header-menu-bolsillo:hover {
+    background-image: url("/static/img/portal/llave/menu-llave-bolsillo-hover.png");
+}
+
+.header-menu-inicio {
+    background-image: url("/static/img/portal/menu/menu-home-llave.png");
+}
+
+.header-menu-inicio:hover {
+    background-image: url("/static/img/portal/llave/llave-cerrar.png");
+}
+
+.header-bono-tarjetas {
+    background-image: url("/static/img/portal/bono/menu-1.png");
+}
+
+.header-bono-tarjetas:hover {
+    background-image: url("/static/img/portal/bono/menu-1-2.png");
+}
+
+.header-bono-portadores {
+    background-image: url("/static/img/portal/bono/menu-2.png");
+}
+
+.header-bono-portadores:hover {
+    background-image: url("/static/img/portal/bono/menu-2-2.png");
+}
+
+.header-bono-vehiculos {
+    background-image: url("/static/img/portal/bono/menu-3.png");
+}
+
+.header-bono-vehiculos:hover {
+    background-image: url("/static/img/portal/bono/menu-3-2.png");
+}
+
+.header-bono-rutas {
+    background-image: url("/static/img/portal/bono/menu-4.png");
+}
+
+.header-bono-rutas:hover {
+    background-image: url("/static/img/portal/bono/menu-4-2.png");
+}
+
+.header-bono-gestion-viajes {
+    background-image: url("/static/img/portal/bono/menu-5.png");
+}
+
+.header-bono-gestion-viajes:hover {
+    background-image: url("/static/img/portal/bono/menu-5-2.png");
+}
+
+.header-bono-abono-tarjetas {
+    background-image: url("/static/img/portal/bono/menu-6.png");
+}
+
+.header-bono-abono-tarjetas:hover {
+    background-image: url("/static/img/portal/bono/menu-6-2.png");
+}
+
+.header-bono-reverso-tarjetas {
+    background-image: url("/static/img/portal/bono/menu-7.png");
+}
+
+.header-bono-reverso-tarjetas:hover {
+    background-image: url("/static/img/portal/bono/menu-7-2.png");
+}
+
+.header-logo-transportador {
+    background-image: url("/static/img/portal/bono/logobono.png")
+}
+
+.header-logo-transportador:hover {
+    background-image: url("/static/img/portal/bono/logobono.png")
+}
+
+.header-menu-llave {
+    background-image: url("/static/img/portal/llave/logollavemaestra.png")
+}
+
+.header-menu-llave:hover {
+    background-image: url("/static/img/portal/llave/logollavemaestra.png")
+}
+
+.header-logo-llaveMaestra {
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    background-image: url("/static/img/portal/llave/logollavemaestra.png")
+}
+
+.header-logo-llaveMaestra:hover {
+    border-radius: 18px;
+    -webkit-transform: scale(1.40);
+    -moz-transform: scale(1.40);
+    -ms-transform: scale(1.40);
+    -o-transform: scale(1.40);
+    transform: scale(1.40);
+    background-image: url("/static/img/portal/llave/logollavemaestra.png")
+}
+
+.header-logo-cerrar {
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    background-image: url("/static/img/portal/llave/llave-cerrar.png")
+}
+
+.header-logo-cerrar:hover {
+    border-radius: 18px;
+    -webkit-transform: scale(1.40);
+    -moz-transform: scale(1.40);
+    -ms-transform: scale(1.40);
+    -o-transform: scale(1.40);
+    transform: scale(1.40);
+    background-image: url("/static/img/portal/llave/llave-cerrar.png")
+}
+
+.active-tarjetas {
+    border-radius: 15px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/bono/menu-1-2.png");
+}
+
+.active-portadores {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/bono/menu-2-2.png");
+}
+
+.active-vehiculos {
+    border-radius: 18px;
+    width: 80px;
+    height: 80px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/bono/menu-3-2.png");
+}
+
+.active-rutas {
+    border-radius: 18px;
+    width: 80px;
+    height: 80px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/bono/menu-4-2.png");
+}
+
+.active-gestion-viajes {
+    border-radius: 18px;
+    width: 80px;
+    height: 80px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/bono/menu-5-2.png");
+}
+
+.active-abono-tarjetas {
+    border-radius: 18px;
+    width: 80px;
+    height: 80px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/bono/menu-6-2.png");
+}
+
+.active-reverso-tarjetas {
+    width: 80px;
+    height: 80px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/bono/menu-7-2.png");
+}
+
+.active-solicitud {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/menu/menu-solicitud-hover.png");
+}
+
+.active-abonos {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/menu/principal-i-abonos.png");
+}
+
+.active-pagos {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/menu/menu-pagos-hover.png");
+}
+
+.active-entregas {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/menu/menu-entregas-hover.png");
+}
+
+.active-consultas {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/menu/menu-consultas-hover.png");
+}
+.active-gestion {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/menu/menu-gestion-hover.png");
+}
+
+.active-cotizacion {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/menu/menu-cotizacion-hover.png");
+}
+
+.active-soporte {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/menu/menu-soporte-hover.png");
+}
+
+.active-asociacion {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/llave/menu-asociacion-hover.png");
+}
+
+.active-carga {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/llave/menu-carga-hover.png");
+}
+
+.active-abono {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/llave/menu-abono-hover.png");
+}
+
+.active-estado {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/llave/menu-estado-hover.png");
+}
+
+.active-reverso {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/llave/menu-reverso-hover.png");
+}
+
+.active-bolsillo {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/llave/menu-llave-bolsillo-hover.png");
+}
+
+.active-llave {
+    border-radius: 18px;
+    width: 110px;
+    height: 110px;
+    margin: 0px 0px 0px 0px;
+    background-image: url("/static/img/portal/llave/logollavemaestra.png");
+}
+
+
+/*
+imagenes subir y descargar plantilla excel
+
+*/
+
+.excel {
+    background-image: url('/static/img/portal/solicitudTar/excel.png');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.excel:hover {
+    background-image: url('/static/img/portal/solicitudTar/excel-hover.png');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.subir {
+    background-image: url('/static/img/portal/solicitudTar/subir-excel.png');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.subir:hover {
+    background-image: url('/static/img/portal/solicitudTar/subir-excel-hover.png');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.descargar {
+    background-image: url('/static/img/portal/solicitudTar/descargar-plantilla.png');
+    width: 199px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.descargar:hover {
+    background-image: url("/static/img/portal/solicitudTar/descargar-plantilla-hover.png");
+    width: 199px;
+    height: 40px;
+    background-repeat: no-repeat;
+}
+
+.aplicar {
+    color: #172E54 !important;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+
+/*
+* VIDEO
+*/
+
+.carousel-indicators li {
+    top: 97% !important;
+    border: 1px solid #FFCB0B !important;
+}
+
+.carousel-indicators .active {
+    background-color: #172E54 !important;
+    top: 97% !important;
+    border: 1px solid #FFCB0B !important;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .glyphicon-chevron-left {
+    color: #172E54 !important;
+}
+
+.borderVideo {
+    border-radius: 25px;
+}
+
+.centerModal {
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+.modal-lg-video{
+    width: 900px !important; 
+}
+
+/*
+Tutorial
+*/
+
+.perfil-help {
+    z-index: 3;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    color: #0c385e;
+    display: none;
+}
+
+.perfil-interno-help {
+    background-color: #FFCB0B;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 15px 15px 15px 5px;
+}
+
+
+/*
+PERFIL
+
+*/
+
+.perfil {
+    z-index: 3;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    right: -30px;
+    color: #0c385e;
+}
+
+.perfil-interno {
+    background-color: #FFCB0B;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding: 15px 15px 15px 5px;
+}
+
+.perfil-nombre {
+    font-weight: bold;
+}
+
+.perfil-empresa {}
+
+.perfil-ultimo-acceso {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.perfil-ultimo-acceso span {
+    font-weight: bold;
+}
+
+.perfil-saldo-canje {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.perfil-saldo-canje span {
+    font-weight: bold;
+}
+
+.perfil-dropdown-help {
+    padding-top: 20px;
+    background-color: #26588F;
+    margin: -15px -15px 10px -5px;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    display: none;
+}
+
+.perfil-dropdown {
+    padding-top: 20px;
+    background-color: #26588F;
+    margin: -15px -15px 10px -5px;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    display: none;
+}
+
+.perfil-dropdown h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+.perfil-dropdown-ingreso {
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+
+.perfil-dropdown-items a {
+    color: #FFF;
+    width: 100%;
+    font-size: 16px;
+}
+
+.perfil-dropdown-items a:last-child {
+    margin-bottom: 20px;
+}
+
+
+/*
+
+Notificacion
+
+*/
+
+.notificacion {
+    overflow: auto;
+    max-height: 70vh;
+    display: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 4;
+    width: 360px;
+    background-color: rgba(54, 97, 153, 0.5);
+    right: 6%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FFCB0B;
+}
+
+.notificacion-interno {
+    font-size: 15px;
+    color: #0c385e;
+    font-weight: bold;
+    width: 320px;
+    height: 80px;
+    background-color: #FFF;
+    margin: 10px 0px 10px 20px;
+    border-radius: 18px;
+    padding: 10px 10px 5px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0c385e;
+}
+
+.notificacion-interno:hover {
+    background-color: #fcf18d;
+    border-color: #fcf18d;
+}
+
+.img-notificacion {
+    float: left;
+    width: 20%;
+    height: 90%;
+    background-image: url("/static/img/portal/iconos/Iconos_Transporte_2.png");
+    background-size: 100% 100%;
+    /*background-color: #00CC00;*/
+}
+
+.notificacion hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+    border: 0.5px solid #FFCB0B;
+}
+
+.puntero-notificacion {
+    display: none;
+    margin-right: 45%;
+    margin-top: 3px;
+    float: right;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 15px solid rgba(54, 97, 153, 0.5);
+}
+
+.cant-noti {
+    float: left;
+    width: 22px;
+    height: 22px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #0c385e;
+    margin-right: 18%;
+    margin-left: 64%;
+}
+
+
+/*
+
+FOOTER
+
+*/
+
+.portal-footer {
+    position: fixed;
+    height: 50px;
+    color: #FFF;
+    width: 100%;
+    bottom: 0px;
+    padding: 0px 0px 0px 45px;
+    text-align: center;
+    background-color: #666666;
+}
+
+.portal-footer img {
+    width: 25px;
+}
+
+.portal-footer-background {
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.portal-footer-download {
+    color: #FFF;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.portal-footer-download:hover {
+    color: #FFF;
+}
+
+.portal-footer-download img {
+    width: 16px;
+}
+
+.portal-footer-redes {
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.portal-footer-redes-facebook {
+    background-image: url('/static/img/portal/facebook.png');
+}
+
+.portal-footer-redes-facebook:hover {
+    background-image: url('/static/img/portal/facebook-hover.png');
+}
+
+.portal-footer-redes-twitter {
+    background-image: url('/static/img/portal/twitter.png');
+}
+
+.portal-footer-redes-twitter:hover {
+    background-image: url('/static/img/portal/twitter-hover.png');
+}
+
+.margin-with-title {
+    margin-bottom: 200px;
+    margin-top: 32px;
+}
+
+label.error {
+    bottom: 40px;
+    color: red;
+    font-size: 14px;
+    height: 25px;
+    display: block;
+    padding: 3px 0;
+    font-weight: 600;
+}
+
+
+/*
+texto oblicuo
+*/
+
+.oblique {
+    font-style: oblique;
+}
+
+.saldo-menu {
+    padding: 0;
+    margin-top: 5px;
+    color: #0c385e;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.saldo-menu-canje {
+    padding: 0;
+    margin-top: 2px;
+    color: #7d7d72;
+    font-size: .8vw;
+    font-weight: bold;
+}
+
+
+/*
+icono por defecto en actualizar datos 
+*/
+
+
+/*.icono-defecto {
+    background-image: url('/static/img/portal/iconos/Iconos_Camara_azul.png');
+}*/
+
+
+/*
+
+FOOTER
+
+*/
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+
+/* For desktop: */
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+.principal-contenedor {
+    /* margin-top: 5px;*/
+}
+
+.titulo {
+    text-align: center;
+    font-size: 35px;
+    color: #366199;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.titulo-iz {
+    text-align: left;
+    font-size: 35px;
+    color: #366199;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.subtitulo-iz {
+    text-align: left;
+    font-size: 25px;
+    color: #366199;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.titulo-iz-cat {
+    text-align: left;
+    font-size: 35px;
+    color: #366199;
+    font-weight: bold;
+}
+
+.titulo-mini-left {
+    text-align: left;
+    font-size: 22px;
+    color: #366199;
+    font-weight: bold;
+}
+
+.principal-menu {
+    background-color: #366199;
+    font-size: 18px;
+    /*    box-shadow: 0 0 20px #999, 0 0 20px #FFF;*/
+    padding: 15px;
+    position: relative;
+    margin: 50px 20px 10px 20px;
+    width: 300px;
+    height: 190px;
+    -webkit-transition: all .4s ease;
+    /* Safari y Chrome */
+    -moz-transition: all .4s ease;
+    /* Firefox */
+    -o-transition: all .4s ease;
+    /* IE 9 */
+    -ms-transition: all .4s ease;
+    /* Opera */
+}
+
+.p-m {
+    position: relative;
+}
+
+.principal-menu:hover {
+    background-color: #0c385e;
+    margin: 40px 20px 20px 20px;
+}
+
+.principal-menu-dos {
+    background-color: #0c385e;
+    font-size: 18px;
+    /*    box-shadow: 0 0 20px #999, 0 0 20px #FFF;*/
+    padding: 15px;
+    position: relative;
+    margin: 50px 20px 10px 20px;
+    width: 300px;
+    height: 190px;
+    -webkit-transition: all .4s ease;
+    /* Safari y Chrome */
+    -moz-transition: all .4s ease;
+    /* Firefox */
+    -o-transition: all .4s ease;
+    /* IE 9 */
+    -ms-transition: all .4s ease;
+    /* Opera */
+}
+
+.principal-menu-dos:hover {
+    background-color: #366199;
+    margin: 40px 20px 20px 20px;
+}
+
+.principal-menu:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -7px;
+    z-index: -1;
+    transform: scale(.9);
+    height: 100%;
+    box-shadow: 0px 0px 20px 0px #4e4e4e;
+    margin-left: -3px;
+}
+
+.principal-menu a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.principal-menu table {
+    width: 100%;
+}
+
+.principal-menu-img {
+    border-radius: 25px;
+    width: 145px;
+    margin: 0px;
+    margin-top: -50px;
+}
+
+.principal-menu hr {
+    width: 100%;
+    margin-bottom: 5px;
+    border-top-color: #81A2C4;
+}
+
+.principal-menu-foot {
+    font-size: 12px;
+    color: #81A2C4;
+    text-decoration: none;
+}
+
+.principal-menu-dos:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: -7px;
+    z-index: -1;
+    transform: scale(.9);
+    height: 100%;
+    box-shadow: 0px 0px 20px 0px #4e4e4e;
+    margin-left: -3px;
+}
+
+.principal-menu-dos a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.principal-menu-dos table {
+    width: 100%;
+}
+
+.principal-menu-dos hr {
+    width: 100%;
+    margin-bottom: 5px;
+    border-top-color: #81A2C4;
+}
+
+.principal-menu-llave {
+    background-color: #366199;
+    font-size: 18px;
+    /*    box-shadow: 0 0 20px #999, 0 0 20px #FFF;*/
+    padding: 15px;
+    position: relative;
+    margin: 50px 20px 10px 20px;
+    width: 300px;
+    height: 190px;
+    -webkit-transition: all .4s ease;
+    /* Safari y Chrome */
+    -moz-transition: all .4s ease;
+    /* Firefox */
+    -o-transition: all .4s ease;
+    /* IE 9 */
+    -ms-transition: all .4s ease;
+    /* Opera */
+}
+
+.principal-menu-llave a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.principal-menu-llave table {
+    width: 100%;
+}
+
+.principal-menu-llave hr {
+    width: 100%;
+    margin-bottom: 5px;
+    border-top-color: #81A2C4;
+}
+
+.principal-menu-llave:hover {
+    background-color: #0c385e;
+    margin: 40px 20px 20px 20px;
+}
+
+
+/*
+
+GRID
+
+*/
+
+.grid {
+    text-transform: capitalize!important;
+}
+
+.gridWithoutLength {}
+
+.gridWithoutLength .dataTables_length {
+    display: none;
+}
+
+.grid .table>thead>tr>th {
+    border: none!important;
+    color: #172E54;
+    font-size: 16px;
+}
+
+.grid .table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border: none;
+    border-bottom: 1px solid #65A9D5;
+}
+
+.grid .table>tbody>tr>td {
+    color: #888;
+    font-size: 14px;
+    vertical-align: bottom;
+    padding-bottom: 3px;
+}
+
+.grid .table>tbody>tr>td .grid-icon {
+    width: 25px;
+}
+
+.grid .dataTables_filter {
+    margin-right: 20px;
+    margin-top: -63px;
+}
+
+.grid .dataTables_filter input {
+    background-image: url(/static/img/portal/iconos/lupa-de-busqueda.png);
+    background-size: 22px;
+    background-position-x: 95%;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    padding: 2px;
+    padding-left: 10px;
+    border: none;
+    border: 1px solid #366199;
+    border-radius: 20px;
+    margin-top: 0px;
+    width: 110%;
+    height: 34px;
+}
+
+.grid .dataTables_filter input:hover {
+    border: none;
+    border: 1px solid #65A9D5;
+    border-radius: 20px;
+}
+
+.grid .dataTables_filter input:focus {
+    border: 2px solid #0c385e;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #0c385e;
+}
+
+.grid .dataTables_info {
+    display: none;
+}
+
+.grid .dataTables_paginate {
+    text-align: center;
+    width: 100%;
+    float: none;
+}
+
+
+/*
+
+GENERAL 
+
+*/
+
+.linkgenerico a:link {
+    height: 35px;
+    background-color: #366199;
+    width: 100%;
+    padding: 10px 25px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.linkgenerico a {
+    color: white !important;
+}
+
+.linkgenerico a:hover,
+.linkgenerico a:active {
+    background-color: #0c385e;
+}
+
+
+/*    text-align: center;
+    display:block;
+    width:140%;
+    height:38px;
+    background: #366199;
+    border: none;
+    border-radius: 30px;
+    padding: 14px 25px;
+    text-decoration: none;
+    color: white !important;*/
+
+.button button,
+.subirlabel,
+.linkbutton,
+.bajarlabel {
+    background: #366199;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    color: #FFF;
+    font-weight: bold;
+    width: 100%;
+    height: 35px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.button button:hover,
+.subirlabel:hover,
+.linkbutton:hover,
+.bajarlabel:hover {
+    background: #0c385e;
+}
+
+.icoSub {
+    border: none;
+    border: 1px solid #888;
+    border-radius: 15px;
+    background-image: url(/static/img/portal/iconos/Iconos_Subir.png);
+    background-size: 30px;
+    background-position-x: 95%;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+}
+
+.button .icoBajar {
+    border: none;
+    border: 1px solid #888;
+    border-radius: 15px;
+    background-image: url(/static/img/portal/iconos/Iconos_Descarga.png);
+    background-size: 20px;
+    background-position-x: 95%;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+}
+
+
+/*
+icono por defecto en actualizar datos 
+*/
+
+.icono-defecto {
+    height: 140px;
+    width: 140px;
+    background-image: url('/static/img/portal/iconos/Iconos_Camara_azul.png');
+}
+
+.titulo-actualizar {
+    letter-spacing: -0.5pt;
+    font-size: 30px;
+    color: #366199;
+    font-weight: bold;
+    margin: 0px;
+    padding-top: 5%;
+}
+
+.sub-actualizar {
+    letter-spacing: -0.5pt;
+    margin-top: -11px;
+    font-size: 26px;
+    color: #366199;
+}
+
+
+/*
+
+CHAT
+
+*/
+
+#live-chat {
+    color: #0c385e;
+    font-weight: bold;
+    bottom: 50px;
+    font-size: 12px;
+    right: 24px;
+    position: fixed;
+    width: 300px;
+    float: right;
+    border-radius: 10px 10px 0px 0px;
+    /* padding: 5px 5px 5px 5px; */
+    background-color: #FDC500;
+    font-style: italic;
+}
+
+#live-chat .live-chat-header {
+    background: #FDC500;
+    border-radius: 10px 10px 0px 0px;
+    color: #0c385e;
+    cursor: pointer;
+    padding: 1px 34px;
+    font-weight: bold;
+}
+
+#live-chat .live-chat-body {
+    background: #6492BB;
+    border-radius: 10px 10px 0px 0px;
+    cursor: pointer;
+    padding: 1px 0px 355px;
+    font-weight: bold;
+}
+
+#live-chat h4:before {
+    background: #1a8a34;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    margin: 0 8px 0 0;
+    width: 8px;
+}
+
+#live-chat h4 {
+    font-size: 12px;
+}
+
+#live-chat input[type="text"] {
+    border: 1px solid #FDC500;
+    border-radius: 3px;
+    padding: 8px;
+    outline: none;
+    width: 234px;
+}
+
+.chat {
+    background: #6492BB;
+}
+
+.frame {
+    background: #6492BB;
+}
+
+.chat_history {
+    height: 302px;
+    padding: 8px 24px;
+    overflow-y: auto;
+}
+/*comenta ronald 5/3/2020 no aparece scroll en datatables */
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
+.chat-message {
+    margin: 16px 0;
+}
+
+.chat-message img {
+    border-radius: 50%;
+    float: left;
+}
+
+.chat-message-content {
+    margin-left: 56px;
+}
+
+.formSendMessage input::-webkit-input-placeholder {
+    font-style: italic;
+}
+
+.text {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text>p:first-of-type {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: auto;
+    line-height: 13px;
+    font-size: 12px;
+}
+
+.text>p:last-of-type {
+    width: 100%;
+    text-align: right;
+    color: silver;
+    margin-bottom: -7px;
+    margin-top: auto;
+}
+
+.ul_chat {
+    /* width: 100%; */
+    list-style-type: none;
+    padding: 18px;
+    position: absolute;
+    /* bottom: 27px; */
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    /* overflow-y: auto; */
+}
+
+.text-l {
+    float: left;
+    padding-right: 10px;
+}
+
+.text-r {
+    float: right;
+    padding-left: 10px;
+}
+
+.macro {
+    margin-top: 5px;
+    width: 85%;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    margin-left: 4px;
+}
+
+.macro-rta {
+    margin-top: 5px;
+    width: 98%;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    margin-right: -12px;
+}
+
+.msj-rta {
+    float: right;
+    background: whitesmoke;
+    /* width: auto; */
+    height: auto;
+    content: "";
+}
+
+.msj {
+    float: left;
+    background: white;
+    height: auto;
+    content: "";
+    /* top: -5px; */
+    left: -14px;
+    position: relative;
+    border-style: solid;
+    border-width: 0 13px 13px 0;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+
+/* .frame>div:last-of-type {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+} */
+
+body>div>div>div:nth-child(2)>span {
+    background: whitesmoke;
+    padding: 10px;
+    font-size: 21px;
+    border-radius: 50%;
+}
+
+body>div>div>div.msj-rta.macro {
+    margin: auto;
+    margin-left: 1%;
+}
+
+.msj:before {
+    width: 0;
+    height: 0;
+    content: "";
+    top: -5px;
+    left: -14px;
+    position: relative;
+    border-style: solid;
+    border-width: 0 13px 13px 0;
+    border-color: transparent #ffffff transparent transparent;
+}
+
+.msj-rta:after {
+    float: right;
+    width: auto;
+    height: auto;
+    content: "";
+    top: -5px;
+    left: 52px;
+    position: relative;
+    border-style: solid;
+    border-width: 13px 13px 0 0;
+    border-color: white transparent transparent transparent;
+}
+
+input:focus {
+    outline: none;
+}
+
+.sendChat {
+    background: url("/static/img/portal/iconos/Iconos_Envio_2.png");
+}
+
+.sendCuadrado {
+    background: #FDC500;
+    margin-top: 10px;
+}
+
+.sendCuadrado img:first-child {
+    width: 28px;
+}
+
+.formSendMessage input:hover {
+    box-shadow: 3px 3px 5px 6px #FDC500;
+}
+
+.lower {
+    text-transform: lowercase;
+}
+
+.lower::first-letter {
+    text-transform: uppercase;
+}
+
+
+/*media query*/
+
+@media (min-width: 1900px) {
+    .header-logo {
+        padding-top: 10px;
+        width: 40%;
+        height: 165px;
+    }
+    .titulo-actualizar {
+        font-size: 1.8vw!important;
+    }
+    .sub-actualizar {
+        margin-top: -5px;
+        font-size: 1.2vw!important;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 1080px) and (max-width: 1800px) {
+    .header2 .header-logo {
+        width: 150%;
+        height: 125px;
+        padding-top: 32px;
+        padding-left: 29px;
+    }
+    .logo-people{
+        width: 70%;
+    }
+    .cant-noti{
+        width: 13px !important;
+        height: 13px !important;
+        font-size: 10px !important;
+    }
+    .header-logo {
+        padding-top: 10px;
+        width: 45%;
+        height: 140px;
+    }
+    .aplicar {
+        font-size: 0.9vw !important;
+    }
+    body {
+        font-size: 0.9vw!important;
+    }
+    .titulo-actualizar {
+        font-size: 1.5vw!important;
+    }
+    .sub-actualizar {
+        margin-top: -5px;
+        font-size: 0.9vw!important;
+    }
+    .header-modulo-llave {
+        width: 60px;
+        height: 60px;
+    }
+    .header-modulo-llave:hover {
+        width: 80px;
+        height: 80px;
+    }
+    .header-modulo {
+        width: 60px;
+        height: 60px;
+    }
+    .header-modulo:hover {
+        width: 80px;
+        height: 80px;
+    }
+    .icono-defecto {
+        height: 110px;
+        width: 110px;
+    }
+    .header-items td a div {
+        width: 40px;
+        height: 40px;
+    }
+    .perfil {
+        width: 270px;
+        position: absolute;
+        top: 0px;
+        right: -30px;
+    }
+    .perfil h3 {
+        font-size: 18px;
+    }
+    .perfil-interno {
+        background-color: #FDC500;
+        margin-top: 20px;
+        border-radius: 8px;
+        padding: 15px 15px 15px 5px;
+    }
+    .perfil-nombre {
+        font-weight: bold;
+    }
+    .perfil-empresa {}
+    .perfil-ultimo-acceso {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .perfil-ultimo-acceso span {
+        font-weight: bold;
+    }
+    .perfil-dropdown {
+        padding-top: 20px;
+        background-color: #26588F;
+        margin: -15px -15px 10px -5px;
+        border-radius: 8px;
+        color: #FFF;
+        text-align: center;
+        display: none;
+    }
+    .perfil-dropdown h1 {
+        font-size: 18px;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+    .perfil-dropdown-ingreso {
+        font-size: 8px;
+        margin-bottom: 30px;
+    }
+    .perfil-dropdown-items a {
+        color: #FFF;
+        width: 100%;
+        font-size: 13px;
+    }
+    .perfil-dropdown-items a:last-child {
+        margin-bottom: 20px;
+    }
+    .principal-menu {
+        font-size: 15px;
+        margin: 50px 10px 10px 10px;
+        width: 250px;
+        height: 145px;
+    }
+    .principal-menu-img {
+        width: 120px;
+        margin: 0px;
+        margin-top: -50px
+    }
+    .principal-menu hr {
+        width: 100%;
+        margin-bottom: 2.5px;
+        margin-top: 13px;
+    }
+    .principal-menu-dos hr {
+        width: 100%;
+        margin-bottom: 2.5px;
+        margin-top: 13px;
+    }
+    .principal-menu-foot {
+        font-size: 12px;
+        color: #81A2C4;
+        text-decoration: none;
+    }
+    .principal-menu-dos {
+        font-size: 15px;
+        margin: 50px 10px 10px 10px;
+        width: 250px;
+        height: 145px;
+    }
+    .principal-contenedor {
+        padding: 0px;
+    }
+    .active-solicitud,
+    .active-abonos,
+    .active-pagos,
+    .active-entregas,
+    .active-consultas,
+    .active-cotizacion,
+    .active-soporte {
+        width: 80px;
+        height: 80px;
+    }
+    .active-bolsillo,
+    .active-carga,
+    .active-abono,
+    .active-estado,
+    .active-reverso,
+    .active-asociacion,
+    .active-llave {
+        width: 80px;
+        height: 80px;
+    }
+    .principal-menu-foot {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    .cant-noti {
+        width: 18px;
+        height: 18px;
+    }
+    .notificacion {
+        width: 300px;
+    }
+    .notificacion-interno {
+        width: 260px;
+    }
+    .puntero-notificacion {
+        margin-right: 36%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+    .modal-dialog {
+        width: 400px;
+        margin: 30px auto
+    }
+    .modal-body p{
+        font-size: 13px;
+        padding-left:3%;
+        padding-right: 2%;
+    }
+
+}
+
+.col-a {
+    font-size: 18px;
+}
+
+.sel-dinamico {
+    border: none;
+    border: 1px solid #888;
+    padding: 4px 4px 4px 2px;
+    border-radius: 15px;
+    /*background-image: url(/static/img/portal/login/select1.jpg);*/
+    background-size: 20px;
+    background-position-x: 99%;
+    background-position-y: 4px;
+    background-repeat: no-repeat;
+    padding-right: 10%;
+    padding-left: 5px;
+}
+
+.form-gr {
+    display: inline-block;
+}
+
+
+/*
+*Estilos cotizacion
+*/
+
+.lbl_linea {
+    font-size: 22px;
+    color: #366199;
+}
+
+.productos_p {
+    text-align: justify;
+    font-size: 17px;
+    color: #0c385e;
+    font-weight: bold;
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('/static/img/wsonline2/carga-loader.gif') 50% 50% no-repeat rgb(249, 249, 249);
+    opacity: .8;
+}
+
+
+/*
+* boton cerrar modal
+*/
+
+.btn_cerrar_modal {
+    border: none;
+    background-size: cover;
+    margin: 0;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 900px;
+    background-image: url("/static/img/portal/llave/ico-modal-cerrar.png");
+    opacity: 1;
+    z-index: 10;
+    transition: all 0.5s;
+}
+
+.btn_cerrar_modal:hover {
+    width: 45px;
+    height: 45px;
+}
